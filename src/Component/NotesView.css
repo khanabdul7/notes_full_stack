@@ -1,0 +1,15 @@
+.item:hover{
+ background-color:#fff;   
+ transition:1s;
+}
+
+.option{
+  position: relative;
+  bottom: 195px;
+  left: 164px;
+}
+
+.scroll{
+  height: 80vh;
+  overflow-y:auto;
+}
