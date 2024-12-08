@@ -4,6 +4,7 @@ const headers = {
     'Content-Type': 'application/json'
   };
 
+//login API call
 const Login=(user)=>{
     axios.post('http://localhost:8080/auth/login', user,{headers})
         .then(response=> (response.data))
